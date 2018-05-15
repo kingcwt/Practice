@@ -1,0 +1,23 @@
+ .btn-danger{
+    display:none;
+     /*height:20px;*/
+     /*line-height: 20px;*/
+     /*overflow: hidden;*/
+}
+.list-group-item:hover .btn {
+    animation: move 1s both;
+    display: inline-block;
+}
+.list-group-item:hover{
+    line-height: 30px;
+    background: #31b0d5;
+}
+@keyframes move {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
